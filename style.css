@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=REM:wght@300&family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo img{
+    width:45px;
+    height:45px;
+    border-radius: 25%;
+    
+
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    background-color: azure;
+    list-style-type: none;
+    font-family: 'REM', sans-serif;
+
+
+}
+
+nav li{
+    font-size: 1rem;
+    
+    padding: 0 5px;
+}
+
+.logo{
+    display:flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.container1{
+    min-height: 70vh;
+    border: 2px solid black;
+    width: 70%;
+    margin: 12px auto;
+    padding: 12px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 22px;
+    background-image: url("music-7238254_1280.jpg");
+    
+
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: sticky;
+    height: 80px;
+    bottom: 0;
+    
+    background-color: rgb(228, 249, 249);
+}
+
+#pgbar{
+    width: 75vw;
+    
+}
+
+#play{
+   margin:0 5px;
+   padding:0 2px;
+   
+   /* border: 1px solid black;
+   border-radius: 50%;
+   border-color: black; */
+}
+.player{
+    margin-top: 15px;
+}
+.player i{
+    cursor: pointer;
+}
+
+.losong{
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+    margin: 12px 25px;
+    font-family: 'Bitter', serif;
+    font-size: 1rem;
+    color: black;
+    width: 25%;
+    border-radius: 25px;
+}
+
+.losong img{
+    width: 35px;
+    margin: 2px 2px;
+    border-radius: 25px;
+}
+
+.tst img{
+    width: 15px;
+    margin: 2px 2px;
+    
+}
+
+.tst{
+    margin: 2px 2px;
+    padding: 2px;
+    font-size: x-small;
+    font-family: 'Bitter', serif;
+}
+.sngnme img{
+    width: 30px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
+
+.sngnme{
+    position: absolute;
+    left: 13vw;
+    
+}
+
+#plays{
+    width:25px;
+}
+
+#nameofsong{
+    margin:2px 5px;
+}
+
+
